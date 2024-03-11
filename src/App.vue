@@ -1,15 +1,15 @@
-
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-
+import AppJumbo from "./components/AppJumbo.vue";
 
 export default {
   components: {
     AppHeader,
     AppMain,
     AppFooter,
+    AppJumbo,
    
   },
 }
@@ -21,8 +21,7 @@ export default {
 
   <div>
     <AppHeader></AppHeader>
-
-    
+    <AppJumbo></AppJumbo>
     <AppMain></AppMain>
     <AppFooter></AppFooter>
 

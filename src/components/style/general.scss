@@ -2,15 +2,37 @@
 @import '@fontsource/ubuntu';
 @import "bootstrap/scss/bootstrap.scss";
 
-img {
-    max-width: 100%;
+*{
+    // font-family: sans-serif;
 }
 
-body {
-    font-family: $font;
-}
+
 
 .wrapper {
-    width: 60%;
+    width: 1200px;
     margin: 0 auto;
+}
+
+.ms_h1 {
+    font-size: 3.5rem;
+}
+
+.ms_color_green {
+    color:rgb(32, 173, 150);
+}
+
+.ms_color_violet {
+    color: rgb(63, 58, 100);
+}
+
+.ms_bg_green {
+    background-color: rgb(32, 173, 150);
+}
+
+.ms_bg_violet {
+    background-color: rgb(63, 58, 100);
+}
+
+.ms_bg_gallery {
+    background-color:rgb(248, 248, 248);
 }
