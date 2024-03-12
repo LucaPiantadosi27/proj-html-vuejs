@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="border-0 rounded ms_bg p-3 d-flex justify-content-between">
+    <div class="ms_hover border-0 rounded ms_bg p-3 d-flex justify-content-between">
         <div class="p-3" style="width: 65%;">
             <div class="text-secondary">
                 <i class="fa-solid fa-location-dot me-2"></i>
@@ -30,6 +30,17 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
+.ms_hover {
+    &:hover {
+        border-left: 3px solid  #22ad96 !important;
+        background-color: white !important;
+        box-shadow: 1px 1px 50px 6px rgb(221, 221, 221);
+        button {
+            background-color: #513e5e;
+        }
+    }
+}
 
 .ms_bg {
     background-color: #f8f8f8;
