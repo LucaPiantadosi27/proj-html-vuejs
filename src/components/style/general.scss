@@ -1,9 +1,9 @@
-@use "./partials/variables" as *;
 @import '@fontsource/ubuntu';
 @import "bootstrap/scss/bootstrap.scss";
+@import "@fontsource/poppins/400.css";
 
 *{
-    // font-family: sans-serif;
+  font-family:sans-serif;
 }
 
 

@@ -50,7 +50,7 @@ data() {
 
 
 #head {
-    background-color: rgb(248, 248, 248);
+    background-color: f5f1ed;
     img {
         width: 150px;
     }

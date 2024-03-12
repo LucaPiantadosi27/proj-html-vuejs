@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div id="jumbo">
+    <div id="jumbo" class="py-5">
         <div class="wrapper py-5 d-flex align-items-center">
             <div class="w-50">
                 <h1 class="ms_h1 ms_color_violet w-75 fw-bold">Complete Your Dreams in JavaS Programming</h1>
@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 
 #jumbo {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(245, 241, 237);
    
 }
 </style>

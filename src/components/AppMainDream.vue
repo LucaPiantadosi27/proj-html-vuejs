@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <div id="build">
+    <div id="build"class="my-5">
         <div class="wrapper py-5">
             <AppTitle :Mono="store.titleSections[0].titleMono" :Purple="store.titleSections[0].titlePurple"
             :Green="store.titleSections[0].titleGreen" :class_align="'text-center'" />
@@ -30,7 +30,7 @@ export default {
             </div>
 
             <div class="d-flex">
-                <div class="w-50">
+                <div class="w-50 position-relative">
                     <img src="../assets/img/about-us-03-image-01.png" alt="image" class="float-start">
                 </div>
 

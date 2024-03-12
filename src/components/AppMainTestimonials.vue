@@ -20,9 +20,9 @@ export default {
 </script>
 
 <template>
-    <div class="ms_bg_gallery p-5">
+    <div class="ms_bg_op p-5">
         <div class="wrapper my-5">
-            <AppSectionTitle :Mono="store.titleSections[5].titleMono" :Purple="store.titleSections[5].titlePurple"
+            <AppTitle :Mono="store.titleSections[5].titleMono" :Purple="store.titleSections[5].titlePurple"
                 :Green="store.titleSections[5].titleGreen" :class_align="'text-center'" />
             <div class="row row-cols-3 ms_margin">
                 <div class="col" v-for="(item, index) in store.opinionsCardInfo" :key="index">
@@ -41,9 +41,10 @@ export default {
                 <i class="fa-solid fa-circle fa-2xs text-secondary ms-3 my-5"></i>
                 <i class="fa-solid fa-circle fa-2xs text-secondary ms-3 my-5"></i>
             </div>
-            <div class="ms_color_violet text-center fs-2 fw-bold my-5">
-                <span>Start today for getting <span class="ms_color_green fw-normal">Online Certification</span></span>
-                <p>You can be your own guiding star with our help!</p>
+            <div class="ms_color_violet text-center fw-bold my-5">
+                <span class="fs-4">Start today for getting <span class="ms_color_green fw-normal">Online
+                        Certification</span></span>
+                <p class="fs-2">You can be your own guiding star with our help!</p>
             </div>
             <div class="text-center my-5">
                 <button type="button" class="btn btn-success fw-bold border-0 ms_button ms_button_padding">
@@ -55,6 +56,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+.ms_bg_op {
+    background-color: #f8f8f8;
+}
 .ms_margin {
     margin-top: 7rem;
 }

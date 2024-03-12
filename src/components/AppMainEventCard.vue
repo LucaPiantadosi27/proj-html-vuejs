@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="border-0 rounded ms_bg_gallery p-3 d-flex justify-content-between">
+    <div class="border-0 rounded ms_bg p-3 d-flex justify-content-between">
         <div class="p-3" style="width: 65%;">
             <div class="text-secondary">
                 <i class="fa-solid fa-location-dot me-2"></i>
@@ -31,6 +31,9 @@ export default {
 
 <style scoped lang="scss">
 
+.ms_bg {
+    background-color: #f8f8f8;
+}
 .ms_button {
     padding: .4rem 1.5rem;
 }
