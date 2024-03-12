@@ -2,6 +2,7 @@
 import { store } from "../store.js";
 import AppBuildCard from "./AppBuildCard.vue";
 import AppMultiple from "./AppMultiple.vue";
+import AppTitle from "./AppTitle.vue";
 
 export default {
     data() {
@@ -11,7 +12,8 @@ export default {
     },
     components: { 
         AppBuildCard, 
-        AppMultiple
+        AppMultiple,
+        AppTitle,
      }
 }
 </script>
@@ -19,12 +21,8 @@ export default {
 <template>
     <div id="build">
         <div class="wrapper py-5">
-            <div class="title text-center">
-                <p class="text-uppercase font-monospace">start learning coding languages</p>
-                <span class="h1 ms_h1 fw-bold ms_color_violet">Build Your Dream </span>
-                <span class="ms_h1 ms_color_green text-uppercase fw-lighter">today</span>
-            </div>
-
+            <AppTitle :Mono="store.titleSections[0].titleMono" :Purple="store.titleSections[0].titlePurple"
+                :Green="store.titleSections[0].titleGreen" />
             <div class="row row-cols-4">
                 <div class="col" v-for="item in store.buildCardInfo" :key="item.title">
                     <AppBuildCard :title="item.title" :img="item.img" :text="item.text" />

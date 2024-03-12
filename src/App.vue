@@ -5,15 +5,16 @@ import AppFooter from './components/AppFooter.vue';
 import AppJumbo from "./components/AppJumbo.vue";
 
 export default {
-  components: {
-    AppHeader,
-    AppMain,
-    AppFooter,
-    AppJumbo,
-   
-  },
-}
 
+  components: { 
+    AppHeader, 
+    AppMain, 
+    AppFooter, 
+    AppJumbo 
+  },
+
+ 
+}
 </script>
 
 

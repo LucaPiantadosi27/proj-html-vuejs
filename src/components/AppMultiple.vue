@@ -60,4 +60,14 @@ export default {
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.accordion-header {
+    button {
+        background-color: #fefefe;
+        &:hover {
+            color: #fefefe;
+            background-color: #22ad96;
+        }
+    }
+}
+</style>
