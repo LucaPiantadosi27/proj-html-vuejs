@@ -94,7 +94,7 @@ export default {
 .ms_img_four {
     width: 190px;
     top: 57%;
-    left: 85%;
+    left: 82%;
     z-index: -1;
 }
 .ms_img_five {

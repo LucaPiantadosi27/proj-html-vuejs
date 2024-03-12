@@ -41,10 +41,17 @@ export default {
                 <i class="fa-solid fa-circle fa-2xs text-secondary ms-3 my-5"></i>
                 <i class="fa-solid fa-circle fa-2xs text-secondary ms-3 my-5"></i>
             </div>
-            <div class="ms_color_violet text-center fw-bold my-5">
+            <div class="ms_color_violet text-center fw-bold my-5 position-relative ">
                 <span class="fs-4">Start today for getting <span class="ms_color_green fw-normal">Online
                         Certification</span></span>
                 <p class="fs-2">You can be your own guiding star with our help!</p>
+                <img src="../assets/img/maxcoach-shape-01.png" alt="image" class="ms_img position-absolute">
+                <img src="../assets/img/maxcoach-shape-02.png" alt="image" class="ms_img_two position-absolute">
+                <span class="p-2 rounded-circle d-inline-block ms_span position-absolute">
+                    <span
+                        class="p-4 rounded-circle d-inline-block position-absolute top-50 start-50 translate-middle"></span>
+                </span>    
+                    
             </div>
             <div class="text-center my-5">
                 <button type="button" class="btn btn-success fw-bold border-0 ms_button ms_button_padding">
@@ -56,6 +63,31 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+.ms_span {
+    background-color: #ecc5ab;
+    width: 60px;
+    aspect-ratio: 1;
+    top: 15%;
+    left: 3.4%;
+    span {
+        background-color: white;
+        width: 30px;
+        aspect-ratio: 1;
+    }
+}
+.ms_img {
+    width: 135px;
+    top: 100%;
+    left: 5%;
+    z-index: 1;
+}
+.ms_img_two {
+    width: 135px;
+    top: 100%;
+    right: 3%;
+    z-index: 1;
+}
 
 .ms_bg_op {
     background-color: #f8f8f8;
