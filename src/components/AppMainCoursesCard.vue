@@ -17,18 +17,36 @@ export default {
 }
 </script>
 <template>
-    <div class="card border-0 h-100">
+    <div class="card border-0 h-100 position-relative">
         <img :src="getImgUrl(img)" class="card-img-top" :alt="img">
-        <div class="card-body">
-            <img :src="getImgUrl(nameImg)" class="ms_img rounded-circle" :alt="nameImg">
-            <h5 class="card-title">{{ title }}</h5>
-            <span class="card-text">{{ lessons }}</span>
-            <span class="card-text">Lessons</span>
-            <span class="card-text">{{ students }}</span>
-            <span class="card-text"> Students</span>
+        <div class="card-body p-4 d-flex flex-column justify-content-between gap-3">
+            <div>
+                <img :src="getImgUrl(nameImg)" class="ms_img rounded-circle" :alt="nameImg">
+                <span class="card-text text-secondary ms-3">{{ name }}</span>
+                <h5 class="card-title bold mt-3">{{ title }}</h5>
+            </div>
+            <div class="d-flex gap-3">
+                <div>
+                    <i class="fa-regular fa-file-lines text-secondary me-2"></i>
+                    <span class="card-text">{{ lessons }}</span>
+                    <span class="card-text"> Lessons</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-user text-secondary me-2"></i>
+                    <span class="card-text">{{ students }}</span>
+                    <span class="card-text"> Students</span>
+                </div>
+            </div>
+            <span class="text-white text-center py-2 position-absolute top-0 end-0 bold ms_badge">{{ price
+            }}</span>
         </div>
     </div>
 </template>
 <style scoped lang="scss">
 
+.ms_badge {
+    background-color: #22ad96;
+    width: 70px;
+    border-radius: 0 0 0 .4rem;
+}
 </style>
