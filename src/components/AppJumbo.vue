@@ -34,12 +34,6 @@ export default {
 
 #jumbo {
     background-color: rgb(248, 248, 248);
-    .ms_button {
-        background-color: rgb(32, 173, 150);
-        padding: 1rem 2rem;
-        &:hover {
-            background-color: rgb(63, 58, 100);
-        }
-    }
+   
 }
 </style>
