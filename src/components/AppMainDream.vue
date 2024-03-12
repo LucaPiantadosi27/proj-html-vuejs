@@ -32,6 +32,7 @@ export default {
             <div class="d-flex">
                 <div class="w-50 position-relative">
                     <img src="../assets/img/about-us-03-image-01.png" alt="image" class="float-start">
+                    <img src="../assets/img/underlay-shape-lilla.svg" alt="imageback" class="ms_img position-absolute">
                 </div>
 
                 <div class="w-50">
@@ -48,4 +49,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.ms_img {
+    width: 400px;
+    top: 18%;
+    left: -20%;
+    z-index: -1;
+}
 </style>
