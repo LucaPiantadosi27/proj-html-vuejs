@@ -66,10 +66,11 @@ export default {
 <style lang="scss" scoped>
 
 * {
+    outline: none !important;
+
     border: none !important;
     box-shadow: none !important;
-    outline: none !important;
-}
+    }
 .ms_img {
     line-height: 100%;
     right: 3%;

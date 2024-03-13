@@ -8,6 +8,7 @@ export default {
 </script>
 
 <template>
+<div class="overlay">
     <div id="jumbo" class="py-5">
         <div class="wrapper py-5 d-flex align-items-center">
             <div class="w-50 ms_index">
@@ -28,6 +29,7 @@ export default {
             </div>
         </div>
     </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
@@ -36,13 +38,11 @@ export default {
     padding-left:250px ;
     padding-right:250px ;
     background-color: rgb(245, 241, 237);
-
     
     .ms_index {
         z-index: 1;
     }
 }
-
 // da fixare
 #jumbo::before {
     content: "";
@@ -52,9 +52,13 @@ export default {
     width: 100%;
     background-image: url(../assets/img/jumbo-overlay.svg);
     background-size: cover;
+    // background-size: contain;
+    background-repeat: no-repeat;
+  
     transform: scaleY(-1);
-    z-index: 0;
+    
 }
+
 
 button {
     background-color:rgb(32, 173, 150);
@@ -64,7 +68,6 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
 button:hover {
     background-color:rgb(63, 58, 100);
 }

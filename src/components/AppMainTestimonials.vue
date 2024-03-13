@@ -67,6 +67,7 @@ export default {
 .custom-bg{
     background-color:rgb(236, 232, 228) ;
     background: linear-gradient(to bottom, rgb(252, 251, 248, ), rgb(252, 250, 246),rgb(242, 245, 238),rgb(245, 242, 234),rgb(245, 241, 237));
+    border-radius: 50px;
 }
 
 .ms_span {

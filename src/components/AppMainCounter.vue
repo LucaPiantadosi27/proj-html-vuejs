@@ -27,7 +27,7 @@ export default {
 
 .numbers {
     border-radius: 50px;
-    background-color: rgb(245, 241, 237);
+    background-color: rgba(248, 246, 244, 0.63);
 }
 h1{
     color: rgb(32, 173, 150);

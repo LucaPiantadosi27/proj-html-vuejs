@@ -38,7 +38,7 @@ export default {
                 <div class="w-50">
                     <p class="text-uppercase font-monospace">dream with <strong>maxcoach</strong></p>
                     <span class="h1 ms_h1 fw-bold ms_color_violet">Construct A </span>
-                    <span class="ms_h1 ms_color_green fw-lighter">Stunning</span>
+                    <span class=" h1 text-size-lg custom-text-color  "> Stunning</span>
                     <span class="h1 ms_h1 fw-bold ms_color_violet"> Career Perspective</span>
                     <AppMultiple/>
                 </div>
@@ -54,5 +54,8 @@ export default {
     top: 18%;
     left: -20%;
     z-index: -1;
+}
+.custom-text-color{
+   color:  rgb(32, 173, 150);
 }
 </style>

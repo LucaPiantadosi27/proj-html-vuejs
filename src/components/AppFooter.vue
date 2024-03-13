@@ -23,8 +23,8 @@ export default {
                     </ul>
                     <div class="social text-body-tertiary mt-5">
                         <i class="fa-brands fa-square-facebook fa-2xl me-5"></i>
-                        <i class="fa-brands fa-twitter fa-2xl me-5"></i>
-                        <i class="fa-brands fa-instagram fa-2xl me-5"></i>
+                        <i class="fa-brands fa-square-x-twitter fa-2xl me-5"></i>
+                        <i class="fa-brands fa-square-instagram fa-2xl me-5"></i>
                         <i class="fa-brands fa-linkedin fa-2xl me-5"></i>
                     </div>
                 </div>
@@ -87,4 +87,6 @@ i{
     display: inline-block;
     padding: 1rem 1.15rem;
 }
+
+
 </style>

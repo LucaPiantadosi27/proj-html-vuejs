@@ -48,7 +48,7 @@ export const store = reactive({
             titleSec: "build",
             titleMono: "start learning coding languages",
             titlePurple: "Build Your Dream",
-            titleGreen: "today"
+            titleGreen: "TODAY"
         },
         {
             titleSec: "courses",
