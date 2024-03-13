@@ -29,10 +29,14 @@ export default {
 
         <div class="text-center mt-4">
             <span class="text-secondary">Excited about our event? </span>
-            <a class="ms_color_green fw-bold" href="">View all events &rarr;</a>
+            <a class="ms_ custom-text-color fw-bold" href="">View all events &rarr;</a>
         </div>
 
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.custom-text-color{
+    color: rgb(32, 173, 150);
+}
+</style>

@@ -28,7 +28,7 @@ data() {
                 <div class="position-relative">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span
-                        class="position-absolute top-0 start-100 translate-middle badge rounded-circle ms_bg_green">o</span>
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-circle custom-text-color custom-font-size">o</span>
                 </div>
 
             <div class="d-flex align-items-baseline gap-4">
@@ -51,6 +51,13 @@ data() {
 i{
     cursor: pointer;
 }
+
+.custom-text-color{
+        background-color: rgba(32, 173, 149, 0.767);
+        height: 20px;
+        font-size: small;
+        cursor: pointer;
+    }
 #head {
     background-color: rgb(245, 241, 237);
     padding-left:250px ;

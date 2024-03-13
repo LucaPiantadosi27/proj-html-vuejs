@@ -24,7 +24,7 @@ export default {
 
             <ul class="list-unstyled my-4 text-secondary">
                 <li class="mb-2" v-for="item in store.learnList" :key="item">
-                    <i class="fa-solid fa-check ms_color_green"></i>
+                    <i class="fa-solid fa-check custom-text-color"></i>
                     <span class="ms-2">{{ item }}</span>
                 </li>
             </ul>
@@ -131,5 +131,10 @@ button {
 
 button:hover {
     background-color:rgb(63, 58, 100);
+}
+
+.custom-text-color{
+    color: rgb(32, 173, 150);
+   
 }
 </style>
