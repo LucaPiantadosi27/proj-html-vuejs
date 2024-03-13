@@ -37,7 +37,7 @@ data() {
                     <input class="py-2 px-3 rounded border-0 bg-white" type="text" v-model="store.stringToSearch"
                                 id="input" placeholder="Search...">
                     <i
-                    class="ms_glass ms_color_green fa-solid fa-magnifying-glass position-absolute top-50 translate-middle-y"></i>
+                    class="ms_glass ms custom-text-colorf fa-solid fa-magnifying-glass position-absolute top-50 translate-middle-y"></i>
                         </div>
                     </div>
                 </div>
@@ -50,13 +50,22 @@ data() {
 
 i{
     cursor: pointer;
+        z-index: 3;
 }
 
 .custom-text-color{
+        cursor: pointer;
         background-color: rgba(32, 173, 149, 0.767);
         height: 20px;
         font-size: small;
+        z-index: 3;
+        
+    }
+    .custom-text-colorf{
+        color:rgba(32, 173, 149, 0.767) ;
         cursor: pointer;
+        z-index: 3;
+
     }
 #head {
     background-color: rgb(245, 241, 237);
@@ -64,21 +73,27 @@ i{
     padding-right:250px ;
     img {
         width: 150px;
+        
     }
     ul {
         list-style: none;
         li {
             cursor: pointer;
             line-height: 100%;
+            z-index: 3;
+
             i {
                 cursor: pointer;
                 margin-left: .3rem;
+                z-index: 3;
                 
             }
         }
     }
     input {
+        cursor: pointer;
         width: 200px;
+        z-index: 3;
     }
     .ms_glass {
         right: 15px;

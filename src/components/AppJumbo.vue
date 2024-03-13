@@ -44,7 +44,8 @@ export default {
     background-image: url(../assets/img/jumbo-overlay.svg);
     background-size: cover;
     background-repeat: no-repeat;
-  
+    z-index: 0;
+    
     transform: scaleY(-0.9);
 
 }
