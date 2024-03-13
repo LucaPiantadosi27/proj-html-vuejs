@@ -11,8 +11,7 @@ export default {
             <h2 class="accordion-header" id="headingOne">
                 <button class="fw-bold accordion-button position-relative" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <img class="ms_img position-absolute rounded-circle d-inline-block top-50 translate-middle"
-                        src="../assets/img/add.svg" alt="acc">
+                    <span class="ms_img position-absolute d-inline-block rounded-circle"></span>
                     Multiple Platforms Supported for Teaching & Studying
                 </button>
             </h2>
@@ -30,8 +29,7 @@ export default {
             <h2 class="accordion-header" id="headingTwo">
                 <button class="fw-bold accordion-button collapsed position-relative" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <img class="ms_img position-absolute rounded-circle d-inline-block top-50 translate-middle"
-                        src="../assets/img/add.svg" alt="acc">
+                    <span class="ms_img position-absolute d-inline-block rounded-circle"></span>
                     Multiple Course Participation at the Same Time
                 </button>
             </h2>
@@ -48,8 +46,7 @@ export default {
             <h2 class="accordion-header" id="headingThree">
                 <button class="fw-bold accordion-button collapsed position-relative" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <img class="ms_img position-absolute rounded-circle d-inline-block top-50 translate-middle"
-                        src="../assets/img/add.svg" alt="acc">
+                    <span class="ms_img position-absolute d-inline-block rounded-circle"></span>
                     Track Study Progress & Deliver Prompt Feedback
                 </button>
             </h2>
@@ -74,24 +71,30 @@ export default {
     outline: none !important;
 }
 .ms_img {
-    height: 25px;
-    stroke-width: 5px;
-    z-index: 3;
-    right: 1.5%;
-    background-color: grey;
-    padding: .1rem;
+    line-height: 100%;
+    right: 3%;
+    background-color: #dedbd9;
+    padding: .3rem .5rem;
+    z-index: 1;
+}
+.ms_img::after {
+    content: "+";
 }
 
 .accordion-header {
     button {
         background-color: #fefefe;
+        color: grey;
         &:hover {
             color: #fefefe;
             background-color: #22ad96;
-
             .ms_img {
                 background-color: white;
-                color: grey;
+                color: #22ad96;
+                padding: .3rem .6rem;
+            }
+            .ms_img::after {
+                content: "-";
             }
         }
         &:focus {

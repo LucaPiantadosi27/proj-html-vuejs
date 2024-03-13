@@ -11,6 +11,7 @@ export default {
 </script>
 
 <template>
+<footer>
     <div class="position-relative">
         <div class="wrapper mt-5 mb-3 py-5 position-relative">
             <div class="d-flex justify-content-between">
@@ -69,9 +70,17 @@ export default {
         </a>
 
     </div>
+</footer>
 </template>
 
 <style lang="scss" scoped>
+footer{
+    padding-left:250px ;
+    padding-right:250px ;
+}
+i{
+    cursor: pointer;
+}
 .ms_up {
     bottom: 5%;
     right: 1.5%;

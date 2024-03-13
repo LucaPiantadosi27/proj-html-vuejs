@@ -17,6 +17,7 @@ export default {
 }
 </script>
 <template>
+
     <div class="card border-0 h-100 position-relative bg-transparent">
         <img :src="getImgUrl(img)" class="card-img-top" :alt="img">
         <div class="card-body p-4 d-flex flex-column justify-content-between gap-3">
@@ -37,13 +38,18 @@ export default {
                     <span class="card-text"> Students</span>
                 </div>
             </div>
-            <span class="text-white text-center py-2 position-absolute top-0 end-0 bold ms_badge">{{ price
-            }}</span>
+            <span class="text-white text-center py-2 position-absolute top-0 end-0 bold ms_badge">{{ price}}</span>
         </div>
     </div>
+
 </template>
 <style scoped lang="scss">
+
+
+
 .card {
+    
+    cursor: pointer;
     &:hover {
         background-color: white !important;
         box-shadow: 1px 1px 50px 6px rgb(221, 221, 221);
@@ -53,6 +59,6 @@ export default {
 .ms_badge {
     background-color: #22ad96;
     width: 70px;
-    border-radius: 0 0 0 .4rem;
+    border-radius: 0 0 0 .3rem;
 }
 </style>

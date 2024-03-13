@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_bg_op p-5">
+    <div class="ms custom-bg p-5 custom-rounded-top">
         <div class="wrapper my-5">
             <AppTitle :Mono="store.titleSections[5].titleMono" :Purple="store.titleSections[5].titlePurple"
                 :Green="store.titleSections[5].titleGreen" :class_align="'text-center'" />
@@ -64,8 +64,13 @@ export default {
 
 <style lang="scss" scoped>
 
+.custom-bg{
+    background-color:rgb(236, 232, 228) ;
+    background: linear-gradient(to bottom, rgb(252, 251, 248, ), rgb(252, 250, 246),rgb(242, 245, 238),rgb(245, 242, 234),rgb(245, 241, 237));
+}
+
 .ms_span {
-    background-color: #ecc5ab;
+    background-color: #f1c6aa;
     width: 60px;
     aspect-ratio: 1;
     top: 15%;
@@ -103,5 +108,22 @@ export default {
 }
 img {
     width: 120px;
+}
+.custom-rounded-top {
+    border-top-left-radius:50px;
+    border-top-right-radius: 50px;
+}
+
+button {
+    background-color:rgb(32, 173, 150);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(63, 58, 100);
 }
 </style>

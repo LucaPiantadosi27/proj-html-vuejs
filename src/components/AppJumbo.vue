@@ -33,21 +33,39 @@ export default {
 <style lang="scss" scoped>
 
 #jumbo {
+    padding-left:250px ;
+    padding-right:250px ;
     background-color: rgb(245, 241, 237);
-   
+
+    
     .ms_index {
         z-index: 1;
     }
 }
+
+// da fixare
 #jumbo::before {
     content: "";
     position: absolute;
-    bottom: 10%;
-    height: 500px;
+    bottom: 7.5%;
+    height: 800px;
     width: 100%;
     background-image: url(../assets/img/jumbo-overlay.svg);
     background-size: cover;
     transform: scaleY(-1);
     z-index: 0;
+}
+
+button {
+    background-color:rgb(32, 173, 150);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(63, 58, 100);
 }
 </style>

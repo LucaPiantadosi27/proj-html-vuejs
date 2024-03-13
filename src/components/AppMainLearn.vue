@@ -119,4 +119,17 @@ export default {
 .ms_width {
     width: 50%;
 }
+
+button {
+    background-color:rgb(32, 173, 150);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(63, 58, 100);
+}
 </style>

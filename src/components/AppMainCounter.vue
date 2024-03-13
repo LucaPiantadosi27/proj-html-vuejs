@@ -10,6 +10,7 @@ export default {
 </script>
 
 <template>
+<div class="bck">
     <div class="numbers my-5">
         <div class="wrapper d-flex justify-content-between p-5">
             <div class="numbers_card" v-for="item in store.numbersInfo">
@@ -18,11 +19,18 @@ export default {
             </div>
         </div>
     </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
 
+
 .numbers {
-    background-color: #faf8f6;
+    border-radius: 50px;
+    background-color: rgb(245, 241, 237);
 }
+h1{
+    color: rgb(32, 173, 150);
+}
+
 </style>

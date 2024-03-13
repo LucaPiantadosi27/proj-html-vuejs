@@ -18,6 +18,7 @@ export default {
 </script>
 
 <template>
+<div class="bk">
     <div class="courses">
         <div class="wrapper py-5">
             <AppTitle :Mono="store.titleSections[1].titleMono" :Purple="store.titleSections[1].titlePurple"
@@ -38,10 +39,28 @@ export default {
             </div>
         </div>
     </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
+
 .courses {
-    background-image: linear-gradient(to bottom, #ffffff 0, #ebebeb 100%);
+    background-color: rgb(245, 241, 237);
+    border-radius: 100px;
+    background-image:linear-gradient(to bottom, rgb(252, 251, 248, ), rgb(252, 250, 246),rgb(245, 242, 234),rgb(245, 241, 237));
+}  
+// rgb(252, 251, 248, ), rgb(252, 250, 246),rgb(245, 242, 234),rgb(245, 241, 237)
+// rgb(245, 241, 237), rgb(245, 242, 234),rgb(252, 250, 246),rgb(252, 251, 248));
+button {
+    background-color:rgb(32, 173, 150);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(63, 58, 100);
 }
 </style>

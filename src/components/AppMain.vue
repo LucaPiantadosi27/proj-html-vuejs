@@ -55,22 +55,27 @@ export default {
 
 
 <template>
+    <main>
+        <AppMainDream></AppMainDream>
 
-    <AppMainDream></AppMainDream>
+        <AppMainCounter></AppMainCounter>
 
-    <AppMainCounter></AppMainCounter>
+        <AppMainCourses></AppMainCourses>
 
-    <AppMainCourses></AppMainCourses>
+        <AppMainLearn></AppMainLearn>
 
-    <AppMainLearn></AppMainLearn>
+        <AppMainEvent></AppMainEvent>
 
-    <AppMainEvent></AppMainEvent>
-
-    <AppMainTestimonials></AppMainTestimonials>
-
+        <AppMainTestimonials></AppMainTestimonials>
+    </main>
 </template>
 
 
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+main{
+    padding-left:250px ;
+    padding-right:250px ;
+}
+</style>

@@ -48,18 +48,25 @@ data() {
 
 <style lang="scss" scoped>
 
-
+i{
+    cursor: pointer;
+}
 #head {
-    background-color: f5f1ed;
+    background-color: rgb(245, 241, 237);
+    padding-left:250px ;
+    padding-right:250px ;
     img {
         width: 150px;
     }
     ul {
         list-style: none;
         li {
+            cursor: pointer;
             line-height: 100%;
             i {
+                cursor: pointer;
                 margin-left: .3rem;
+                
             }
         }
     }
@@ -69,5 +76,7 @@ data() {
     .ms_glass {
         right: 15px;
     }
+
+    
 }
 </style>

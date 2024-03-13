@@ -31,11 +31,16 @@ export default {
 
 <style scoped lang="scss">
 
+
 .ms_hover {
+    
+    button{
+        background-color: rgb(32, 173, 150);
+    }
     &:hover {
-        border-left: 3px solid  #22ad96 !important;
+        border-left: 3px solid rgb(32, 173, 150) !important;
         background-color: white !important;
-        box-shadow: 1px 1px 50px 6px rgb(221, 221, 221);
+        box-shadow: 2px 1px 50px 6px rgb(221, 221, 221);
         button {
             background-color: #513e5e;
         }
