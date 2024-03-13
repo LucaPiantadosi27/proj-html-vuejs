@@ -34,6 +34,21 @@ export default {
 
 <style lang="scss" scoped>
 
+
+.overlay::before{
+    content: "";
+    position: absolute;
+    bottom: 2.2%;
+    height: 1000px;
+    width: 100%;
+    background-image: url(../assets/img/jumbo-overlay.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    transform: scaleY(-0.9);
+
+}
+
 #jumbo {
     padding-left:250px ;
     padding-right:250px ;
@@ -42,21 +57,6 @@ export default {
     .ms_index {
         z-index: 1;
     }
-}
-// da fixare
-#jumbo::before {
-    content: "";
-    position: absolute;
-    bottom: 7.5%;
-    height: 800px;
-    width: 100%;
-    background-image: url(../assets/img/jumbo-overlay.svg);
-    background-size: cover;
-    // background-size: contain;
-    background-repeat: no-repeat;
-  
-    transform: scaleY(-1);
-    
 }
 
 
