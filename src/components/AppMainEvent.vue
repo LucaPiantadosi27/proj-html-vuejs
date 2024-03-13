@@ -39,4 +39,8 @@ export default {
 .custom-text-color{
     color: rgb(32, 173, 150);
 }
+.wrapper{
+    color: rgb(63, 58, 100);
+}
+
 </style>

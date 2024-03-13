@@ -115,6 +115,9 @@ export default {
         aspect-ratio: 1;
     }
 }
+.wrapper{
+    color: rgb(63, 58, 100);
+}
 
 .ms_width {
     width: 50%;
@@ -132,7 +135,7 @@ button {
 button:hover {
     background-color:rgb(63, 58, 100);
 }
-
+ 
 .custom-text-color{
     color: rgb(32, 173, 150);
    

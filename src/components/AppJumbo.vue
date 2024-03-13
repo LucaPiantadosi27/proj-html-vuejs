@@ -12,7 +12,7 @@ export default {
     <div id="jumbo" class="py-5">
         <div class="wrapper py-5 d-flex align-items-center">
             <div class="w-50 ms_index">
-                <h1 class="ms_h1 ms_color_violet w-75 fw-bold">Complete Your Dreams in JavaS Programming</h1>
+                <h1 class="ms_h1 ms_ custom-text-color w-75 fw-bold">Complete Your Dreams in JavaS Programming</h1>
                 <p class="w-75 my-5 ms_color_violet">Learn any coding program in distance and for a reasonable fee. You
                     don't have
                     to
@@ -49,7 +49,9 @@ export default {
     transform: scaleY(-0.9);
 
 }
-
+.custom-text-color{
+    color: rgb(63, 58, 100);
+}
 #jumbo {
     padding-left:250px ;
     padding-right:250px ;

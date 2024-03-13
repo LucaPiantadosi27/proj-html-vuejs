@@ -123,6 +123,9 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+.wrapper{
+    color: rgb(63, 58, 100);
+}
 
 button:hover {
     background-color:rgb(63, 58, 100);

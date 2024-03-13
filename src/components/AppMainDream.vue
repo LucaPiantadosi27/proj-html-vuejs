@@ -48,6 +48,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.wrapper{
+    
+    color: rgb(63, 58, 100);
+}
 
 .ms_img {
     width: 400px;
